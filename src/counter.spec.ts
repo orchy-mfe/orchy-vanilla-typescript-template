@@ -8,6 +8,9 @@ describe('counter', () => {
 
         setupCounter(button)
 
-        expect(button.innerHTML).toBe('count is 0')
+        new Array(10).forEach((_, index) => {
+            expect(button.innerHTML).toBe(`count is ${index}`)
+            button.click()
+        })
     })
 })
