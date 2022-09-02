@@ -11,6 +11,7 @@
     "lint": "eslint ./src --ext .ts"
   },
   "devDependencies": {
+    "@testing-library/dom": "^8.17.1",
     "@typescript-eslint/eslint-plugin": "^5.36.1",
     "@typescript-eslint/parser": "^5.36.1",
     "eslint": "^8.23.0",
