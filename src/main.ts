@@ -11,10 +11,10 @@ const render = (props: QiankunProps) => {
   const appContainer = container.querySelector('#app') as HTMLElement
   appContainer.innerHTML = `
   <div>
-    <a href="https://vitejs.dev" target="_blank">
+    <a class="logo" href="https://vitejs.dev" target="_blank">
       ${viteLogo}
     </a>
-    <a href="https://www.typescriptlang.org/" target="_blank">
+    <a class="logo vanilla" href="https://www.typescriptlang.org/" target="_blank">
       ${typescriptLogo}
     </a>
     <h1>Vite + TypeScript</h1>
