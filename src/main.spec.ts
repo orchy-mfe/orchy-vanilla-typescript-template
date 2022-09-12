@@ -20,10 +20,7 @@ describe('main', () => {
         expect(initialCountButton).toBeDefined()
         expect(initialCountButton.innerHTML).toEqual('count is 0')
 
-        fireEvent(
-            initialCountButton,
-            new MouseEvent('click', {bubbles: true, cancelable: true})
-        )
+        fireEvent.click(initialCountButton)
 
         expect(initialCountButton.innerHTML).toEqual('count is 1')
     })
