@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@testing-library/dom': ^8.17.1
+  '@testing-library/dom': ^8.18.0
   '@typescript-eslint/eslint-plugin': ^5.37.0
   '@typescript-eslint/parser': ^5.37.0
   eslint: ^8.23.1
@@ -15,7 +15,7 @@ specifiers:
   vitest: ^0.23.2
 
 devDependencies:
-  '@testing-library/dom': 8.17.1
+  '@testing-library/dom': 8.18.0
   '@typescript-eslint/eslint-plugin': 5.37.0_22c5fnooleyfkzrkkgdmel5kmi
   '@typescript-eslint/parser': 5.37.0_irgkl5vooow2ydyo6aokmferha
   eslint: 8.23.1
@@ -129,8 +129,8 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@testing-library/dom/8.17.1:
-    resolution: {integrity: sha512-KnH2MnJUzmFNPW6RIKfd+zf2Wue8mEKX0M3cpX6aKl5ZXrJM1/c/Pc8c2xDNYQCnJO48Sm5ITbMXgqTr3h4jxQ==}
+  /@testing-library/dom/8.18.0:
+    resolution: {integrity: sha512-hP7v7Ifiq104Lb4dTuQzUtlkbX4sgsmxVwOTnVSDOU4ntApvPfp+eFLvasS8GpMP6pVfdbNRXNF/bSK7LTriEg==}
     engines: {node: '>=12'}
     dependencies:
       '@babel/code-frame': 7.18.6
