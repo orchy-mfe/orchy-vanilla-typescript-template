@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@orchy-mfe/models': ^0.0.1
   '@testing-library/dom': ^8.18.1
   '@typescript-eslint/eslint-plugin': ^5.38.0
   '@typescript-eslint/parser': ^5.38.0
@@ -15,6 +16,7 @@ specifiers:
   vitest: ^0.23.4
 
 devDependencies:
+  '@orchy-mfe/models': 0.0.1
   '@testing-library/dom': 8.18.1
   '@typescript-eslint/eslint-plugin': 5.38.0_wsb62dxj2oqwgas4kadjymcmry
   '@typescript-eslint/parser': 5.38.0_irgkl5vooow2ydyo6aokmferha
@@ -127,6 +129,13 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
+    dev: true
+
+  /@orchy-mfe/models/0.0.1:
+    resolution: {integrity: sha512-tYL6IJQZaN2Q5f7B8CVbKSK/pymia8emdsDVT5iZ2BG+aGabGQgQFpQt5ihyOs6GoEw3tF5oOw8oj4+vlRarlQ==}
+    engines: {node: '>=v16.17.0'}
+    dependencies:
+      rxjs: 7.5.6
     dev: true
 
   /@testing-library/dom/8.18.1:
@@ -1724,6 +1733,12 @@ packages:
       queue-microtask: 1.2.3
     dev: true
 
+  /rxjs/7.5.6:
+    resolution: {integrity: sha512-dnyv2/YsXhnm461G+R/Pe5bWP41Nm6LBXEYWI6eiFP4fiwx6WRI/CD0zbdVAudd9xwLEF2IDcKXLHit0FYjUzw==}
+    dependencies:
+      tslib: 2.4.0
+    dev: true
+
   /safe-buffer/5.1.2:
     resolution: {integrity: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==}
     dev: true
@@ -1890,6 +1905,10 @@ packages:
 
   /tslib/1.14.1:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
+    dev: true
+
+  /tslib/2.4.0:
+    resolution: {integrity: sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==}
     dev: true
 
   /tsutils/3.21.0_typescript@4.8.3:

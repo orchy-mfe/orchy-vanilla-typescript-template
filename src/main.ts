@@ -4,9 +4,9 @@ import viteLogo from './assets/vite.svg?raw'
 import typescriptLogo from './assets/typescript.svg?raw'
 import {setupCounter} from './counter.js'
 
-const retrieveContainer = (props: QiankunProps): HTMLElement => (props.container ?? document) as HTMLElement
+const retrieveContainer = (props?: QiankunProps): HTMLElement => (props?.container ?? document) as HTMLElement
 
-const render = (props: QiankunProps) => {
+const render = (props?: QiankunProps) => {
   const container = retrieveContainer(props)
   const appContainer = container.querySelector('#app') as HTMLElement
   appContainer.innerHTML = `
@@ -46,5 +46,5 @@ renderWithQiankun({
 })
 
 if (!qiankunWindow.__POWERED_BY_QIANKUN__) {
-  render({})
+  render()
 }
