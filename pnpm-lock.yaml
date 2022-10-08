@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@orchy-mfe/models': ^0.0.1
-  '@testing-library/dom': ^8.18.1
+  '@testing-library/dom': ^8.19.0
   '@typescript-eslint/eslint-plugin': ^5.39.0
   '@typescript-eslint/parser': ^5.39.0
   eslint: ^8.25.0
@@ -17,7 +17,7 @@ specifiers:
 
 devDependencies:
   '@orchy-mfe/models': 0.0.1
-  '@testing-library/dom': 8.18.1
+  '@testing-library/dom': 8.19.0
   '@typescript-eslint/eslint-plugin': 5.39.0_cfd7h3iktziq6hcwahu2qxhjhy
   '@typescript-eslint/parser': 5.39.0_z4bbprzjrhnsfa24uvmcbu7f5q
   eslint: 8.25.0
@@ -143,8 +143,8 @@ packages:
       rxjs: 7.5.6
     dev: true
 
-  /@testing-library/dom/8.18.1:
-    resolution: {integrity: sha512-oEvsm2B/WtcHKE+IcEeeCqNU/ltFGaVyGbpcm4g/2ytuT49jrlH9x5qRKL/H3A6yfM4YAbSbC0ceT5+9CEXnLg==}
+  /@testing-library/dom/8.19.0:
+    resolution: {integrity: sha512-6YWYPPpxG3e/xOo6HIWwB/58HukkwIVTOaZ0VwdMVjhRUX/01E4FtQbck9GazOOj7MXHc5RBzMrU86iBJHbI+A==}
     engines: {node: '>=12'}
     dependencies:
       '@babel/code-frame': 7.18.6
