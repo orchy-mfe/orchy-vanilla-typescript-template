@@ -12,7 +12,7 @@ specifiers:
   rollup-plugin-visualizer: ^5.8.2
   rxjs: ^7.5.7
   typescript: ^4.8.4
-  vite: ^3.1.7
+  vite: ^3.1.8
   vite-plugin-qiankun: ^1.0.15
   vitest: ^0.24.1
 
@@ -30,8 +30,8 @@ devDependencies:
   happy-dom: 7.5.10
   rollup-plugin-visualizer: 5.8.2
   typescript: 4.8.4
-  vite: 3.1.7
-  vite-plugin-qiankun: 1.0.15_pyo5n34mr7w32wfqve3utffvk4
+  vite: 3.1.8
+  vite-plugin-qiankun: 1.0.15_o3sppntgta7qijzxyjjxfsiapy
   vitest: 0.24.1_happy-dom@7.5.10
 
 packages:
@@ -1965,7 +1965,7 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
-  /vite-plugin-qiankun/1.0.15_pyo5n34mr7w32wfqve3utffvk4:
+  /vite-plugin-qiankun/1.0.15_o3sppntgta7qijzxyjjxfsiapy:
     resolution: {integrity: sha512-0QB0Wr8Eu/LGcuJAfuNXDb7BAFDszo3GCxq4bzgXdSFAlK425u1/UGMxaDEBVA1uPFrLsZPzig83Ufdfl6J45A==}
     peerDependencies:
       typescript: '>=4'
@@ -1973,11 +1973,11 @@ packages:
     dependencies:
       cheerio: 1.0.0-rc.12
       typescript: 4.8.4
-      vite: 3.1.7
+      vite: 3.1.8
     dev: true
 
-  /vite/3.1.7:
-    resolution: {integrity: sha512-5vCAmU4S8lyVdFCInu9M54f/g8qbOMakVw5xJ4pjoaDy5wgy9sLLZkGdSLN52dlsBqh0tBqxjaqqa8LgPqwRAA==}
+  /vite/3.1.8:
+    resolution: {integrity: sha512-m7jJe3nufUbuOfotkntGFupinL/fmuTNuQmiVE7cH2IZMuf4UbfbGYMUT3jVWgGYuRVLY9j8NnrRqgw5rr5QTg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -2036,7 +2036,7 @@ packages:
       tinybench: 2.3.0
       tinypool: 0.3.0
       tinyspy: 1.0.2
-      vite: 3.1.7
+      vite: 3.1.8
     transitivePeerDependencies:
       - less
       - sass
