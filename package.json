@@ -11,7 +11,7 @@
     "lint": "eslint ./src --ext .ts"
   },
   "devDependencies": {
-    "@orchy-mfe/models": "^0.0.1",
+    "@orchy-mfe/models": "^0.2.0",
     "@testing-library/dom": "^8.19.0",
     "@typescript-eslint/eslint-plugin": "^5.43.0",
     "@typescript-eslint/parser": "^5.43.0",
