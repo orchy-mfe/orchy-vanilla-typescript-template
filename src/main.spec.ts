@@ -2,17 +2,15 @@ import {getByText, fireEvent} from '@testing-library/dom'
 
 import {describe, it, expect} from 'vitest'
 
-const appContainer = document.createElement('div')
-appContainer.setAttribute('id', 'app')
+const appContainer = document.createElement('vanilla-mfe-typescript')
 
 document.body.appendChild(appContainer)
 
 import './main'
 
-
 describe('main', () => {
     it('renders correctly', () => {
-        expect(getByText(appContainer, 'Click on the Vite and TypeScript logos to learn more')).toBeDefined()
+        expect(getByText(document.body, 'Click on the Vite and TypeScript logos to learn more')).toBeDefined()
     })
 
     it('count increments correctly', () => {

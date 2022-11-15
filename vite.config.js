@@ -1,13 +1,13 @@
 /// <reference types="vitest" />
 import {defineConfig} from 'vite'
 import {visualizer} from 'rollup-plugin-visualizer'
-import qiankun from 'vite-plugin-qiankun'
+import cssInjectedByJsPlugin from 'vite-plugin-css-injected-by-js'
 
 const port = process.env.PORT || 8080
 
 export default defineConfig(({mode}) => ({
   plugins: [
-    qiankun('orchy-vanilla-typescript-template', {useDevMode: true}),
+    cssInjectedByJsPlugin(),
     visualizer(),
   ],
   base: mode === 'development' ? `http://localhost:${port}/` : '/orchy-vanilla-typescript-template/',

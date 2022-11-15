@@ -1,50 +1,36 @@
 import './style.css'
-import {renderWithQiankun, qiankunWindow, QiankunProps} from 'vite-plugin-qiankun/dist/helper'
 import viteLogo from './assets/vite.svg?raw'
 import typescriptLogo from './assets/typescript.svg?raw'
 import {setupCounter} from './counter.js'
 
-const retrieveContainer = (props?: QiankunProps): HTMLElement => (props?.container ?? document) as HTMLElement
+import OrchyMicroFrontend from '@orchy-mfe/spa-adapter'
 
-const render = (props?: QiankunProps) => {
-  const container = retrieveContainer(props)
-  const appContainer = container.querySelector('#app') as HTMLElement
-  appContainer.innerHTML = `
-  <div>
-    <a class="logo" href="https://vitejs.dev" target="_blank">
-      ${viteLogo}
-    </a>
-    <a class="logo vanilla" href="https://www.typescriptlang.org/" target="_blank">
-      ${typescriptLogo}
-    </a>
-    <h1>Vite + TypeScript</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite and TypeScript logos to learn more
-    </p>
-  </div>
-`
+export class VanillaMfeTypeScript extends OrchyMicroFrontend {
+  async mount() {
+    this.getContainer().innerHTML = `
+      <div>
+        <a class="logo" href="https://vitejs.dev" target="_blank">
+          ${viteLogo}
+        </a>
+        <a class="logo vanilla" href="https://www.typescriptlang.org/" target="_blank">
+          ${typescriptLogo}
+        </a>
+        <h1>Vite + TypeScript</h1>
+        <div class="card">
+          <button id="counter" type="button"></button>
+        </div>
+        <p class="read-the-docs">
+          Click on the Vite and TypeScript logos to learn more
+        </p>
+      </div>
+    `
 
-  setupCounter(document.querySelector('#counter') as HTMLButtonElement)
-}
-
-renderWithQiankun({
-  mount(props) {
-    render(props)
-  },
-  bootstrap() {
-    console.log('bootstrap')
-  },
-  unmount(props) {
-    retrieveContainer(props).innerHTML = ''
-  },
-  update() {
-    console.log('update')
+    setupCounter(document.querySelector('#counter') as HTMLButtonElement)
   }
-})
 
-if (!qiankunWindow.__POWERED_BY_QIANKUN__) {
-  render()
+  async unmount() {
+    this.getContainer().innerHTML = ''
+  }
 }
+
+customElements.define('vanilla-mfe-typescript', VanillaMfeTypeScript)

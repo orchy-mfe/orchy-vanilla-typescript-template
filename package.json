@@ -22,10 +22,11 @@
     "rollup-plugin-visualizer": "^5.8.3",
     "typescript": "^4.8.4",
     "vite": "^3.2.3",
-    "vite-plugin-qiankun": "^1.0.15",
+    "vite-plugin-css-injected-by-js": "^2.1.1",
     "vitest": "^0.25.2"
   },
   "dependencies": {
+    "@orchy-mfe/spa-adapter": "^0.1.0",
     "rxjs": "^7.5.7"
   }
 }
