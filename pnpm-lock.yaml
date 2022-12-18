@@ -13,7 +13,7 @@ specifiers:
   rollup-plugin-visualizer: ^5.8.3
   rxjs: ^7.8.0
   typescript: ^4.9.4
-  vite: ^4.0.1
+  vite: ^4.0.2
   vite-plugin-css-injected-by-js: ^2.1.1
   vitest: ^0.25.8
 
@@ -32,8 +32,8 @@ devDependencies:
   happy-dom: 8.1.0
   rollup-plugin-visualizer: 5.8.3
   typescript: 4.9.4
-  vite: 4.0.1
-  vite-plugin-css-injected-by-js: 2.1.1_vite@4.0.1
+  vite: 4.0.2
+  vite-plugin-css-injected-by-js: 2.1.1_vite@4.0.2
   vitest: 0.25.8_happy-dom@8.1.0
 
 packages:
@@ -1696,16 +1696,16 @@ packages:
       punycode: 2.1.1
     dev: true
 
-  /vite-plugin-css-injected-by-js/2.1.1_vite@4.0.1:
+  /vite-plugin-css-injected-by-js/2.1.1_vite@4.0.2:
     resolution: {integrity: sha512-gjIG6iFWde32oRr/bK9CsfN+jdbura2y4GlDzeOiEm6py38ud8dXzFl9zwmHjOjZdr8XEgQ9TovzVGNzp47esw==}
     peerDependencies:
       vite: '>2.0.0-0'
     dependencies:
-      vite: 4.0.1
+      vite: 4.0.2
     dev: true
 
-  /vite/4.0.1:
-    resolution: {integrity: sha512-kZQPzbDau35iWOhy3CpkrRC7It+HIHtulAzBhMqzGHKRf/4+vmh8rPDDdv98SWQrFWo6//3ozwsRmwQIPZsK9g==}
+  /vite/4.0.2:
+    resolution: {integrity: sha512-QJaY3R+tFlTagH0exVqbgkkw45B+/bXVBzF2ZD1KB5Z8RiAoiKo60vSUf6/r4c2Vh9jfGBKM4oBI9b4/1ZJYng==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -1737,8 +1737,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vite/4.0.1_@types+node@18.7.14:
-    resolution: {integrity: sha512-kZQPzbDau35iWOhy3CpkrRC7It+HIHtulAzBhMqzGHKRf/4+vmh8rPDDdv98SWQrFWo6//3ozwsRmwQIPZsK9g==}
+  /vite/4.0.2_@types+node@18.7.14:
+    resolution: {integrity: sha512-QJaY3R+tFlTagH0exVqbgkkw45B+/bXVBzF2ZD1KB5Z8RiAoiKo60vSUf6/r4c2Vh9jfGBKM4oBI9b4/1ZJYng==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -1807,7 +1807,7 @@ packages:
       tinybench: 2.3.1
       tinypool: 0.3.0
       tinyspy: 1.0.2
-      vite: 4.0.1_@types+node@18.7.14
+      vite: 4.0.2_@types+node@18.7.14
     transitivePeerDependencies:
       - less
       - sass
