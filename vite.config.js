@@ -15,5 +15,12 @@ export default defineConfig(({mode}) => ({
   test: {
     environment: 'happy-dom',
     mockReset: true
-  }
+  },
+  build: {
+    rollupOptions: {
+      output: {
+        entryFileNames: '[name].js'
+      }
+    }
+  },
 }))
