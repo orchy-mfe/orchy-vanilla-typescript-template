@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@orchy-mfe/models': ^0.3.0
   '@orchy-mfe/spa-adapter': ^0.1.1
-  '@testing-library/dom': ^8.19.1
+  '@testing-library/dom': ^8.20.0
   '@typescript-eslint/eslint-plugin': ^5.48.2
   '@typescript-eslint/parser': ^5.48.2
   eslint: ^8.32.0
@@ -23,7 +23,7 @@ dependencies:
 
 devDependencies:
   '@orchy-mfe/models': 0.3.0
-  '@testing-library/dom': 8.19.1
+  '@testing-library/dom': 8.20.0
   '@typescript-eslint/eslint-plugin': 5.48.2_caon6io6stgpr7lz2rtbhekxqy
   '@typescript-eslint/parser': 5.48.2_7uibuqfxkfaozanbtbziikiqje
   eslint: 8.32.0
@@ -338,8 +338,8 @@ packages:
       lit: 2.4.1
     dev: false
 
-  /@testing-library/dom/8.19.1:
-    resolution: {integrity: sha512-P6iIPyYQ+qH8CvGauAqanhVnjrnRe0IZFSYCeGkSRW9q3u8bdVn2NPI+lasFyVsEQn1J/IFmp5Aax41+dAP9wg==}
+  /@testing-library/dom/8.20.0:
+    resolution: {integrity: sha512-d9ULIT+a4EXLX3UU8FBjauG9NnsZHkHztXoIcTsOKoOw030fyjheN9svkTULjJxtYag9DZz5Jz5qkWZDPxTFwA==}
     engines: {node: '>=12'}
     dependencies:
       '@babel/code-frame': 7.18.6
