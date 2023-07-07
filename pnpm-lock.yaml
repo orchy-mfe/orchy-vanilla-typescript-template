@@ -44,11 +44,11 @@ devDependencies:
     specifier: ^5.1.6
     version: 5.1.6
   vite:
-    specifier: ^4.4.1
-    version: 4.4.1(@types/node@18.7.14)
+    specifier: ^4.4.2
+    version: 4.4.2(@types/node@18.7.14)
   vite-plugin-css-injected-by-js:
     specifier: ^3.2.0
-    version: 3.2.0(vite@4.4.1)
+    version: 3.2.0(vite@4.4.2)
   vitest:
     specifier: ^0.33.0
     version: 0.33.0(happy-dom@10.0.3)
@@ -2098,7 +2098,7 @@ packages:
       mlly: 1.4.0
       pathe: 1.1.1
       picocolors: 1.0.0
-      vite: 4.4.1(@types/node@18.7.14)
+      vite: 4.4.2(@types/node@18.7.14)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -2110,16 +2110,16 @@ packages:
       - terser
     dev: true
 
-  /vite-plugin-css-injected-by-js@3.2.0(vite@4.4.1):
+  /vite-plugin-css-injected-by-js@3.2.0(vite@4.4.2):
     resolution: {integrity: sha512-a6MtYm/qfswVCtLezzzKJWL2ZpxrXXQd6/1UHy0t/G0IILHl4GG6n4OprbcC93aXIwkeS19JNbuKWD0Xt+pZtg==}
     peerDependencies:
       vite: '>2.0.0-0'
     dependencies:
-      vite: 4.4.1(@types/node@18.7.14)
+      vite: 4.4.2(@types/node@18.7.14)
     dev: true
 
-  /vite@4.4.1(@types/node@18.7.14):
-    resolution: {integrity: sha512-8mmwPlsy7t+ZcTme7vdbVGuZ3Tri+lrLXr6hsF5UHdyYyARPPPMtM16QlqC9TZuCd5j3NmWs1rwka3cVSRHZTw==}
+  /vite@4.4.2(@types/node@18.7.14):
+    resolution: {integrity: sha512-zUcsJN+UvdSyHhYa277UHhiJ3iq4hUBwHavOpsNUGsTgjBeoBlK8eDt+iT09pBq0h9/knhG/SPrZiM7cGmg7NA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -2207,7 +2207,7 @@ packages:
       strip-literal: 1.0.1
       tinybench: 2.5.0
       tinypool: 0.6.0
-      vite: 4.4.1(@types/node@18.7.14)
+      vite: 4.4.2(@types/node@18.7.14)
       vite-node: 0.33.0(@types/node@18.7.14)
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
