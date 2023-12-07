@@ -23,7 +23,7 @@
     "typescript": "^5.3.3",
     "vite": "^5.0.6",
     "vite-plugin-css-injected-by-js": "^3.3.0",
-    "vitest": "^1.0.1"
+    "vitest": "^1.0.2"
   },
   "dependencies": {
     "@orchy-mfe/spa-adapter": "^0.1.1",
