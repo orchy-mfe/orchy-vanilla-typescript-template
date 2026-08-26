@@ -38,8 +38,8 @@ devDependencies:
     specifier: ^14.7.1
     version: 14.7.1
   rollup-plugin-visualizer:
-    specifier: ^5.12.0
-    version: 5.12.0
+    specifier: ^5.14.0
+    version: 5.14.0
   typescript:
     specifier: ^5.4.5
     version: 5.4.5
@@ -1824,6 +1824,11 @@ packages:
     engines: {node: '>=8.6'}
     dev: true
 
+  /picomatch@4.0.7:
+    resolution: {integrity: sha512-qcJu88Q2IWqJsDD529JKMdwGm/dvInW4HvQnRwiH9JtihJvzGOscDtHE3x1pBKeUOTysQ8kVmLnJ2kJu7yhcGA==}
+    engines: {node: '>=12'}
+    dev: true
+
   /pkg-types@1.0.3:
     resolution: {integrity: sha512-nN7pYi0AQqJnoLPC9eHFQ8AcyaixBUOwvqc5TDnIKCMEE6I0y8P7OKA7fPexsXGCGxQDl/cmrLAp26LhcwxZ4A==}
     dependencies:
@@ -1920,18 +1925,21 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rollup-plugin-visualizer@5.12.0:
-    resolution: {integrity: sha512-8/NU9jXcHRs7Nnj07PF2o4gjxmm9lXIrZ8r175bT9dK8qoLlvKTwRMArRCMgpMGlq8CTLugRvEmyMeMXIU2pNQ==}
-    engines: {node: '>=14'}
+  /rollup-plugin-visualizer@5.14.0:
+    resolution: {integrity: sha512-VlDXneTDaKsHIw8yzJAFWtrzguoJ/LnQ+lMpoVfYJ3jJF4Ihe5oYLAqLklIK/35lgUY+1yEzCkHyZ1j4A5w5fA==}
+    engines: {node: '>=18'}
     hasBin: true
     peerDependencies:
+      rolldown: 1.x
       rollup: 2.x || 3.x || 4.x
     peerDependenciesMeta:
+      rolldown:
+        optional: true
       rollup:
         optional: true
     dependencies:
       open: 8.4.0
-      picomatch: 2.3.1
+      picomatch: 4.0.7
       source-map: 0.7.4
       yargs: 17.5.1
     dev: true
